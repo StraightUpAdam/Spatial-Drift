@@ -1,0 +1,358 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1010280311953375296
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 584864271797322544}
+  - component: {fileID: 9046180699406773723}
+  - component: {fileID: 4363431759159871283}
+  m_Layer: 0
+  m_Name: Body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &584864271797322544
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010280311953375296}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0}
+  m_LocalScale: {x: 1.8, y: 0.6, z: 3.6}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2848805837644071696}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &9046180699406773723
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010280311953375296}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &4363431759159871283
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010280311953375296}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ccbf70f02b9dbf746a0c09abffa87820, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &2846767334093128449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2848805837644071696}
+  - component: {fileID: 8646956689705696193}
+  - component: {fileID: 6205527833384428159}
+  - component: {fileID: 5881292441372140497}
+  - component: {fileID: 118099597361440484}
+  - component: {fileID: 6990041972719159929}
+  - component: {fileID: 3555047826704481953}
+  - component: {fileID: 6603366410160417548}
+  m_Layer: 0
+  m_Name: NetworkCar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2848805837644071696
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2846767334093128449}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 584864271797322544}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &8646956689705696193
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2846767334093128449}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.8, y: 0.6, z: 3.6}
+  m_Center: {x: 0, y: 0.3, z: 0}
+--- !u!54 &6205527833384428159
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2846767334093128449}
+  serializedVersion: 5
+  m_Mass: 1200
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &5881292441372140497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2846767334093128449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a6e8dae94895c44eb51aa9005176ab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearSystem
+  gearMaxSpeeds:
+  - 15
+  - 27
+  - 40
+  - 54
+  - 68
+  - 82
+  - 97
+  - 112
+  - 128
+  - 145
+  gearAcceleration:
+  - 42
+  - 36
+  - 29
+  - 23
+  - 18
+  - 13
+  - 10
+  - 7.5
+  - 5.5
+  - 4
+  boostZones:
+  - minRPM: 0.63
+    maxRPM: 0.72
+    boostSpeed: 2.5
+    label: GOOD
+  - minRPM: 0.72
+    maxRPM: 0.81
+    boostSpeed: 4.5
+    label: GREAT
+  - minRPM: 0.81
+    maxRPM: 0.87
+    boostSpeed: 8
+    label: PERFECT
+  - minRPM: 0.87
+    maxRPM: 0.94
+    boostSpeed: 4.5
+    label: GREAT
+  - minRPM: 0.94
+    maxRPM: 0.99
+    boostSpeed: 2.5
+    label: GOOD
+  boostDuration: 0.45
+  powerbandEntry: 0
+  minEfficiency: 1
+--- !u!114 &118099597361440484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2846767334093128449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7081e89314dbc5f40ba0bcaae3d83a11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CarController
+  targetPhysicsRate: 100
+  forceVSync: 1
+  keyboardSteerSmoothRate: 16
+  track: {fileID: 0}
+  accelerationScale: 1
+  brakePower: 5
+  coastDrag: 1.2
+  steerRateDeg: 75
+  minSteerSpeed: 1.5
+  bankSteeringMultiplier: 0.6
+  driftStyle: 1
+  hopAngleMin: 8
+  hopAngleMax: 32
+  hopAngleResponse: 7
+  hopTurnPerAngle: 3.6
+  hopHeight: 0.45
+  hopDuration: 0.28
+  driftEnabled: 1
+  driftSteerThreshold: 0.2
+  driftMinSpeed: 12
+  driftSteerMultiplier: 1.7
+  driftMinDuration: 0.4
+  driftMaxDuration: 1.5
+  driftBoostMin: 5
+  driftBoostMax: 14
+  driftBoostDuration: 0.55
+  driftDrag: 0.5
+  normalGrip: 24
+  driftGrip: 3
+  driftEntryFlickDeg: 8
+  maxSlideAngleDeg: 55
+  driftSlideScrub: 6
+  wallSpeedRetained: 0.8
+  wallBounce: 0.35
+  centerMagnet: 0
+  autoDownshiftEnabled: 1
+  autoDownshiftThreshold: 0.85
+  gearSystem: {fileID: 5881292441372140497}
+  startDistance: 0
+  startLateralOffset: 0
+  inputEnabled: 1
+  aiControlled: 0
+  networkDeferPlayerSystems: 1
+  spatialDriftActive: 0
+  spatialDriftTargetLateral: 0
+  postExitLockTimer: 0
+  gamepadDeadzone: 0.12
+  gamepadBrakeThreshold: 0.15
+--- !u!114 &6990041972719159929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2846767334093128449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32b84e25c268c71459b1b0fb67520bb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GearShifter
+  width: 5
+  height: 3
+  cells: []
+  wallsH: 
+  wallsV: 
+  startPosition: {x: 0, y: 0}
+  gearSystem: {fileID: 5881292441372140497}
+  kickbackDuration: 0.25
+  stickFlickThreshold: 0.55
+  stickReleaseThreshold: 0.3
+--- !u!114 &3555047826704481953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2846767334093128449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
+  GlobalObjectIdHash: 2349113028
+  InScenePlacedSourceGlobalObjectIdHash: 0
+  DeferredDespawnTick: 0
+  Ownership: 1
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 0
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
+  SyncOwnerTransformWhenParented: 1
+  AllowOwnerToParent: 0
+--- !u!114 &6603366410160417548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2846767334093128449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5764e4ba23110604dbb5d95511740994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NetworkCarSync
+  ShowTopMostFoldoutHeaderGroup: 1
+  interpSpeed: 16

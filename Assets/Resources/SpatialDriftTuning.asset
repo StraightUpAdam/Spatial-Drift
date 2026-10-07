@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1a771514eaed3a47800c67159bdd10a, type: 3}
+  m_Name: SpatialDriftTuning
+  m_EditorClassIdentifier: Assembly-CSharp::SpatialDriftTuning
+  requiresTopGear: 1
+  minRPMToEnter: 0.85
+  entryKey: 101
+  entryGamepadButton: 335
+  speedMultiplier: 1
+  speedAdditive: 10
+  headingLockResponse: 8
+  lateralSnapSpeed: 60
+  noteSpawnInterval: 0.65
+  noteLeadTime: 1.6
+  hitWindow: 0.1
+  difficultyRampEnabled: 1
+  rampDuration: 30
+  noteSpawnIntervalMin: 0.28
+  noteLeadTimeMin: 1
+  hitWindowMin: 0.11
+  holdNoteChance: 0.2
+  holdDurationMin: 0.55
+  holdDurationMax: 1.3
+  scorePerHoldComplete: 150
+  maxLives: 3
+  scorePerHit: 100
+  scorePerPerfect: 200
+  maxSimultaneousHolds: 2
+  exitBoostMin: 5
+  exitBoostMax: 25
+  exitBoostSaturationScore: 2000
+  exitBoostDuration: 1.2
+  exitGear: 6
+  postExitGraceDuration: 1
+  ghostBodyColor: {r: 0.55, g: 0.28, b: 1.1, a: 1}
+  ghostEmission: {r: 0.55, g: 0.2, b: 1.1, a: 1}
+  ghostEmissionIntensity: 2.4
+  screenTintAlpha: 0.22
+  screenTintColor: {r: 0.45, g: 0.2, b: 0.85, a: 1}
